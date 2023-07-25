@@ -1,4 +1,18 @@
 <%- include("partials/header"); -%>
-    <h1>Contact</h1>
-    <p> <%= contactContent %> </p>
+       <h1 ><i>Contact</i></h1>
+    <form class="" action="mailto:gargijais11@gmail.com" method="post">
+        <div class="form-group">
+            <p style="text-align: center;"><h2><b>Hello , from here you can contact me!</b></h2></p>
+
+          <label for="name">Name</label>
+          <input class="form-control" type="text" name="Name" required>
+          <label for="email">Email Id</label>
+          <input class="form-control" name="email" required>
+          </div>
+          <div>
+          <label for="message">Message</label>
+          <textarea class="form-control" name="message" rows="5" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" name="button">Submit</button>
+      </form>
 <%- include("partials/footer"); -%>
