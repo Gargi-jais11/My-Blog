@@ -2,7 +2,21 @@ html {
   min-height: 100%;
   position: relative;
 }
-
+form{
+  max-width:500px;
+  margin:0 auto;
+  align-items: center;
+  border-radius: 0%;
+}
+label, input,textarea{
+  display:block;
+  margin-bottom: 10px;
+  border-radius: 0% ;
+}
+textarea{
+  resize:vertical;
+  border-radius: 0%;
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
