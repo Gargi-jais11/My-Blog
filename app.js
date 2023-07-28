@@ -10,11 +10,12 @@ const aboutContent = "Let me tell you something about my educational life. From 
 const contactContent = "To contact me My phone no. is: 8798706612 and my email id is jaisgargi@gmail.com";
 
 const app = express();
+app.use(express.static("public"));
 
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static("public"));
+
 
 let posts = [];
 
