@@ -11,6 +11,7 @@ const contactContent = "To contact me My phone no. is: 8798706612 and my email i
 
 const app = express();
 app.use(express.static("public"));
+app.use(express.static("../public/imz.jpg"));
 
 app.set('view engine', 'ejs');
 
